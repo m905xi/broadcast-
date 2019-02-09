@@ -5,7 +5,7 @@ const dateFormat = require('dateformat');
 const client = new Discord.Client(); 
 const jimp = require("jimp");
 const Canvas = require("canvas"); 
-const prefix = "!"
+const prefix = "#"
 const id = JSON.parse(fs.readFileSync("./id/rank.json", "utf8"));
 
 let banse = new Set();
@@ -1419,13 +1419,11 @@ client.on('message', message => {
 
 message.author.sendMessage(`
 **
-╭━━━╮╱╱╱╱╭━━╮╱╱╱╭╮
-┃╭━╮┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮
-┃╰━╯┣━┳━━┫╰╯╰┳━┻╮╭╯
-┃╭━━┫╭┫╭╮┃╭━╮┃╭╮┃┃
-┃┃╱╱┃┃┃╰╯┃╰━╯┃╰╯┃╰╮
-╰╯╱╱╰╯╰━━┻━━━┻━━┻━╯
-
+                           
+ |  _ \  / \  |  _ \| |/ /|   _ \ _ __ ___ | |__   ___ | |_ 
+ | | | |/ _ \ | |_) | ' / | |_) | '__/ _ \| '_ \ / _ \| __|
+ | |_| / ___ \|  _ <| . \ |  __/| | | (_) | |_) | (_) | |_ 
+ |____/_/   \_\_| \_\_|\_\|_|   |_|  \___/|_.__/ \___/ \__|
 [❖═════ لتشغيل اللوق Log يجب وجود روم باسم ═══════❖]
 
 [❖═════════════════════════════❖]
